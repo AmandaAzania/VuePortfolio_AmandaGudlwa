@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 
 Vue.config.productionTip = false
+// vue js script
+
 
 new Vue({
   router,
