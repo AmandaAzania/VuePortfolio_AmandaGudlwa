@@ -10,6 +10,7 @@
        <v-btn text @click="scroll('skills')"><v-icon>mdi-cogs</v-icon> skills</v-btn>
     <v-btn text @click="scroll('projects')"> <v-icon>mdi-folder-outline</v-icon> Projects</v-btn>
      <v-btn text @click="scroll('project')"> <v-icon>mdi-book</v-icon> CV</v-btn>
+       <v-btn text @click="scroll('contact')"><v-icon>mdi-format-quote-open</v-icon> Testimonials</v-btn>
   <v-btn text @click="scroll('contact')"><v-icon>mdi-phone-outline</v-icon> Contact</v-btn>
   </v-app-bar>
 </template>
