@@ -8,9 +8,12 @@
 <v-flex xs12 sm6 md4 lg3 v-for="person in people" :key="person.name">
 <v-card flat  class="text-xs-center ma-3">
     <v-responsive class="pt-4 ">
-{{person.img}}
+image goes here
     </v-responsive>
 <v-card-text>
+        <div class="grey--text">
+{{person.testimony}}
+    </div>
     <div class="subheading">{{person.name}}</div>
     <div class="grey--text">
 {{person.role}}
@@ -29,11 +32,13 @@ export default{
         return{
             people:[
                 
-{ name: 'The Net Ninja', role: 'Web developer' },
-{ name: 'Ryu', role: 'Graphic designer' },
-{ name:'Chun Li', role: 'Web developer' },
-{ name:'Gouken', role: 'Social media maverick' },
-{ name: 'Yoshi', role: 'Sales guru', img:' src="https://i.postimg.cc/ZK6Ghm4z/Amanda-2.jpg"'}
+{ name: 'Joel Mukanya', role: 'Lecturer', testimony: 'Amanda Gudlwa,is a well behave and a professional young lady, who knowshow to prioritize her tasks and met the deadline set on aproject.It is alwasys interesting to have Amanda in my class. you will not regret hiring her as a fullstack developer.' },
+{ name: 'Emile Van Wyk', role: 'Developer', testimony: 'Amanda Gudlwa, a passionate and driven invidualwith the tenaciousness for success she is fun loving person but knows when to be serious, she isknown for being a calm and collected person especially in stressful situations which makes her ideal for any team especially in roles of leadership.' },
+{ name:'Joshe Jade Theys', role: 'Developer', testimony: ' Amanda is a talented individual who is alwa ready to assist her colleagues. She is patientduring group projects as she guides those who not understand certain concepts. She has an incredible wealth of knowledge regarding coding and her dedication to improving her craft is admirable.' },
+{ name:'Bulelani Sikhikhi', role: 'Developer',testimony: 'Amanda Gudlwa, a passionate and driven invi with the tenaciousness for success she is fuloving person but knows when to be serious,  she isknown for being a calm and collected person especially in stressful situations which makes h ideal for any team especially in roles ofleadership' },
+{ name: 'Sibpongile Rwayi', role: 'Developer',testimony: ' I have known Amanda Gudlwa since HigH School. She has always been a good student. She always had a hand up in class, to either answer a question or to ask a question. The teachers found her to be a pleasure to teach.'},
+{ name: 'Joshua Solomons', role: 'Developer',testimony: "Amanda Gudlwa is a funny individual who is easy to be around. She has an easy energy. She knows how to make time for everything. When it is time to work, she  works, when it is time to have fun she is always down for a good time"}
+
 
 
 
