@@ -6,73 +6,8 @@
     <nav-bar />
     <v-container fluid>
       <v-row>
-        <v-col cols="6">
-          <v-layout>
-            <v-flex>
-              <v-card style="z-index: 100" class="py-5">
-                <v-responsive pt-4>
-                  <v-img
-                    src="https://i.postimg.cc/ZK6Ghm4z/Amanda-2.jpg"
-                    contain
-                    max-height="500"
-                  ></v-img>
-                </v-responsive>
-                <v-card-text>
-                  <div>
-                    <h1 class="text-center">Amanda Gudlwa</h1>
-                  </div>
-
-                  <div>
-                    <span style="color: rgba(172, 8, 8, 0.884)"
-                      ><h5 class="text-center">
-                        Aspiring fullstack developer
-                      </h5></span
-                    >
-                  </div>
-
-                  <div class="text-center">
-                    <v-icon>mdi-facebook</v-icon>
-                    <v-icon>mdi-instagram</v-icon>
-                    <v-icon>mdi-github</v-icon>
-                    <v-icon>mdi-linkedin</v-icon>
-                  </div>
-
-                  <div style="text-align: right">
-                    <v-btn>Contact Me</v-btn>
-                  </div>
-
-                  <div style="text-align: left">
-                    <v-btn style="position: relative; left: 10px; top: -35px"
-                      >Download CV</v-btn
-                    >
-                  </div>
-                </v-card-text>
-              </v-card>
-            </v-flex>
-          </v-layout>
-        </v-col>
-        <v-col cols="6">
-          <v-layout>
-            <v-flex>
-              <v-card class="mx-n7 px-5 py-5 my-16" style="z-index: 1">
-                <h5 class="red--text text--darken-4 top">Hello I'm Amanda</h5>
-                <h1 class="white--text">Aspiring Full stack developer</h1>
-                <p class="grey--text">
-                  I enjoy learning about new technologies. I am passionate about
-                  technology, programming and
-                  <span style="color: rgba(172, 8, 8, 0.884)">robotics</span>. I
-                  had been self teaching for 2 years before I joined Life
-                  Choices.Through my studies at Life Choices Academy, I have
-                  gotten exposure into the field of
-                  <span style="color: rgba(172, 8, 8, 0.884)"
-                    >web development</span
-                  >. <br />
-                </p>
-                <v-btn>About Me</v-btn>
-              </v-card>
-            </v-flex>
-          </v-layout>
-        </v-col>
+     
+  
 
 
 

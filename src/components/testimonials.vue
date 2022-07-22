@@ -7,8 +7,8 @@
 <v-layout row wrap>
 <v-flex xs12 sm6 md4 lg3 v-for="person in people" :key="person.name">
 <v-card flat  class="text-xs-center ma-3">
-    <v-responsive class="pt-4">
-image goes here
+    <v-responsive class="pt-4 ">
+{{person.img}}
     </v-responsive>
 <v-card-text>
     <div class="subheading">{{person.name}}</div>
@@ -31,11 +31,9 @@ export default{
                 
 { name: 'The Net Ninja', role: 'Web developer' },
 { name: 'Ryu', role: 'Graphic designer' },
-{ name:
-'Chun Li', role: 'Web developer' },
-{ name:
-'Gouken', role: 'Social media maverick' },
-{ name: 'Yoshi', role: 'Sales guru'}
+{ name:'Chun Li', role: 'Web developer' },
+{ name:'Gouken', role: 'Social media maverick' },
+{ name: 'Yoshi', role: 'Sales guru', img:' src="https://i.postimg.cc/ZK6Ghm4z/Amanda-2.jpg"'}
 
 
 
@@ -45,3 +43,7 @@ export default{
     }
 }
 </script>
+
+
+                   
+               

@@ -50,11 +50,11 @@
 }
 
 body {
-  background-color: #6a9ac4;
+  background-color: #070808;
 }
 
 #contact {
-  background-color: #6a9ac4;
+  background-color: #191d20;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,26 +74,26 @@ body {
 
 
 .contact-links {
-  background-color: #1f2e43;
+  background-color: #161616;
   background:
     radial-gradient(
-      circle at 55% 92%, #426691 0 12%, transparent 12.2%
+      circle at 55% 92%, #12181f 0 12%, transparent 12.2%
     ), 
     radial-gradient(
-      circle at 94% 72%, #426691 0 10%, transparent 10.2%
+      circle at 94% 72%, #131416 0 10%, transparent 10.2%
     ), 
     radial-gradient(
-      circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2%
+      circle at 20% max(78%, 350px), #0d0e0f 0 7%, transparent 7.2%
     ), 
     radial-gradient(
-      circle at 0% 0%, #263a53 0 40%, transparent 40.2%
+      circle at 0% 0%, #121315 0 40%, transparent 40.2%
     ), 
     #1f2e43;
   border-radius: 10px 0 0 10px;
 }
 
 .contact-form-wrapper {
-  background-color: #ffffff8f;
+  background-color: #0b0a0a8f;
   border-radius: 0 10px 10px 0;
 }
 
@@ -200,7 +200,7 @@ textarea:valid+label {
 }
 
 .submit-btn {
-  background-color: #fd917e;
+  background-color: #d40b0b;
   filter: drop-shadow(2px 2px 3px #0003);
   color: #fff;
   font-family: "Poppins",sans-serif;

@@ -1,7 +1,8 @@
 <template>
-  <!-- skills progress bar -->
+  
 
   <div class="box">
+   
     <ul v-for="skill in skills" :key="skill.lang">
       <li>
         <div class="lang">{{ skill.lang }}</div>
