@@ -42,11 +42,10 @@
           ><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            <a href="https://www.google.com/"><v-icon>mdi-github</v-icon></a>
+            <a href="https://github.com/AmandaAzania/realEstate"><v-icon>mdi-github</v-icon></a>
           </v-btn>
-               <v-btn color="#A7121D" dark text class="ml-n4">
-          
-            <v-icon right>mdi-web</v-icon>
+              <v-btn color="#A7121D" dark text class="ml-n4">
+            <a href="https://coruscating-taffy-000d9a.netlify.app"><v-icon>mdi-web</v-icon></a>
           </v-btn>
         </v-col>
         <!-- end -->
@@ -54,13 +53,11 @@
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> To do app </v-btn><br />
 
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            <v-icon right>mdi-github</v-icon>
+           <v-btn color="#A7121D" dark text class="ml-n4">
+            <a href="https://github.com/AmandaAzania/ToDoApp"><v-icon>mdi-github</v-icon></a>
           </v-btn>
-
-             <v-btn color="#A7121D" dark text class="ml-n4">
-         
-            <v-icon right>mdi-web</v-icon>
+              <v-btn color="#A7121D" dark text class="ml-n4">
+            <a href="https://shimmering-cranachan-fd906b.netlify.app"><v-icon>mdi-web</v-icon></a>
           </v-btn>
         </v-col>
         <v-col md="3" offset-md="3">
@@ -88,24 +85,20 @@
         <v-col md="3" offset-md="3">
           <v-btn color="white" dark text class="ml-n4"> interest calculator </v-btn
           ><br />
-
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            <v-icon right>mdi-github</v-icon>
+     <v-btn color="#A7121D" dark text class="ml-n4">
+            <a href="https://github.com/AmandaAzania/countingInterest"><v-icon>mdi-github</v-icon></a>
           </v-btn>
-               <v-btn color="#A7121D" dark text class="ml-n4">
-          
-            <v-icon right>mdi-web</v-icon>
+              <v-btn color="#A7121D" dark text class="ml-n4">
+            <a href="https://meek-chaja-8015d5.netlify.app"><v-icon>mdi-web</v-icon></a>
           </v-btn>
         </v-col>
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> Area Calculator </v-btn><br />
-          <v-btn color="#A7121D" dark text class="ml-n4">
-
-            <v-icon right>mdi-github</v-icon>
+           <v-btn color="#A7121D" dark text class="ml-n4">
+            <a href="https://github.com/AmandaAzania/areaOfTriangle"><v-icon>mdi-github</v-icon></a>
           </v-btn>
               <v-btn color="#A7121D" dark text class="ml-n4">
-          
-            <v-icon right>mdi-web</v-icon>
+            <a href="https://gorgeous-llama-36d5d9.netlify.app"><v-icon>mdi-web</v-icon></a>
           </v-btn>
         </v-col>
         
@@ -137,26 +130,21 @@
           <v-btn color="white" dark text class="ml-n4"> Age to Days </v-btn
           ><br />
 
-          <v-btn color="#A7121D" dark text class="ml-n4">
-           
-            <v-icon right>mdi-github</v-icon>
+        <v-btn color="white" dark text class="ml-n4"> Area Calculator </v-btn><br />
+           <v-btn color="#A7121D" dark text class="ml-n4">
+            <a href="https://github.com/AmandaAzania/areaOfTriangle"><v-icon>mdi-github</v-icon></a>
           </v-btn>
-
-                <v-btn color="#A7121D" dark text class="ml-n4">
-            
-            <v-icon right>mdi-web</v-icon>
+              <v-btn color="#A7121D" dark text class="ml-n4">
+            <a href="https://gorgeous-llama-36d5d9.netlify.app"><v-icon>mdi-web</v-icon></a>
           </v-btn>
         </v-col>
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> BMI calculator </v-btn><br />
           <v-btn color="#A7121D" dark text class="ml-n4">
-      
-            <v-icon right>mdi-github</v-icon>
+            <a href="https://github.com/AmandaAzania/BMIcalculator"><v-icon>mdi-github</v-icon></a>
           </v-btn>
-
-             <v-btn color="#A7121D" dark text class="ml-n4">
-         
-            <v-icon right>mdi-web</v-icon>
+              <v-btn color="#A7121D" dark text class="ml-n4">
+            <a href="https://deluxe-semifreddo-ad2400.netlify.app/"><v-icon>mdi-web</v-icon></a>
           </v-btn>
         </v-col>
       </v-row>

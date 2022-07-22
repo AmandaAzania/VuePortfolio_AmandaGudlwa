@@ -1,32 +1,8 @@
 <template>
-<div class="container" id="resume">
-  
-  <h1 class="text-center">Resume</h1>
-  <h4 class="text-center" style="color: rgba(172, 8, 8, 0.884)">Work experience</h4>
-  <div class="content">
-    
-    <div class="lin">
-    
-      <div class="box1 b-1">
-        <span id='b-1-s' > 2017 - 2018</span>
-        <h4> Shop asssistant  </h4>
-        <p>Don Pedroo Fisheries</p>
-      </div>
-    
-      <div class="box1 b-2">
-        <span id='b-2-s'>2018 - 2019</span>
-        <h4>Call centre agent</h4>
-        <p>Webhelp</p>
-      </div>
-    
-      <div class="box1 b-3">
-        <span id='b-1-s'>2020</span>
-        <h4>Baby sitter</h4>
-        <p>Nandipha Madotyeni</p>
-      </div>
-    </div>
-  </div>
-  
+<v-container class="container" id="resume">
+
+  <v-layout row wrap>
+
 
 <h4 class="text-center" style="color: rgba(172, 8, 8, 0.884)" >Education</h4>
 
@@ -54,10 +30,10 @@
       
     </div>
   </div>
-</div>
 
 
-
+</v-layout>
+</v-container>
 </template>
 
 <style>

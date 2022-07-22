@@ -22,11 +22,9 @@ import resume from './components/resume.vue'
 import landingPage from './components/landingPage.vue'
 import NavBar from './components/NavBar.vue';
 import projects from './components/projects.vue'
-
 export default {
   components: { testimonials, contact, Footer, skills, resume, landingPage, NavBar, projects },
   name: 'App',
-
   data: () => ({
     //
   }),

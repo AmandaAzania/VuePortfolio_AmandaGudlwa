@@ -1,7 +1,11 @@
 <template>
-  
 
-  <div class="box" id="skills">
+
+
+  <div class="box container" id="skills">
+
+    <div class="row">
+        <div class="col-md-6">
 
     <h1>Technologies I worked with:</h1>
    
@@ -20,6 +24,8 @@
         </div>
       </li>
     </ul>
+    </div>
+  </div>
   </div>
 </template>
 

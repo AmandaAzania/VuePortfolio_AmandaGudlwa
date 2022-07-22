@@ -1,5 +1,8 @@
 <template>
-  <section id="contact">
+  <section id="contact-fluid">
+
+    <div class="row">
+      <div class="col-md-6">
     <div class="contact-box">
       <div class="contact-links">
         <h2>CONTACT</h2>
@@ -47,6 +50,8 @@
           <button class="submit-btn">Send</button>
         </form>
       </div>
+    </div>
+    </div>
     </div>
   </section>
 </template>

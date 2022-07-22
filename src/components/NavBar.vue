@@ -1,4 +1,5 @@
 <template>
+<VueResponsiveMenu>
   <v-app-bar app color="#111111" dark flat class="px-8">
     <v-btn icon>
       <v-icon color="#A7121D">mdi-bee</v-icon>
@@ -13,9 +14,11 @@
        <v-btn text href="#testimonials"><v-icon>mdi-format-quote-open</v-icon> Testimonials</v-btn>
   <v-btn text @click="scroll('contact')"><v-icon>mdi-phone-outline</v-icon> Contact</v-btn>
   </v-app-bar>
+  </VueResponsiveMenu>
 </template>
 
 <script>
+import VueResponsiveMenu from "vue-responsive-menu";
 export default {
   methods: {
     scroll(refName) {
@@ -23,6 +26,9 @@ export default {
       element.scrollIntoView({ behavior: "smooth" });
     },
   },
+   components: {
+    VueResponsiveMenu
+  }
 };
 </script>
 

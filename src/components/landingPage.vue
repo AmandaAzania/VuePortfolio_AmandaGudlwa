@@ -29,7 +29,11 @@
                             gotten exposure into the field of
                             <span style="color: rgba(172, 8, 8, 0.884)">web development</span>. <br />
           </p>
-          <v-btn tile color="#A7121D" dark> about me </v-btn>
+   
+          <a href="../assets/AmandaGudlwaCv.pdf"  download>
+            <v-btn tile color="#A7121D"  dark> Download CV </v-btn>
+            </a>
+          
         </v-col>
         <!-- end of what i waanna use -->
         
