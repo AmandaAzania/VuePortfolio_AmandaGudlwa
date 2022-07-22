@@ -1,48 +1,60 @@
 <template>
-<section id="contact">
-  <div class="contact-box">
-    <div class="contact-links">
-      <h2>CONTACT</h2>
-      <div class="links">
-        <div class="link">
-          <a><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
-        </div>
-        <div class="link">
-          <a><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"></a>
-        </div>
-        <div class="link">
-          <a><img src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen"></a>
-        </div>
-        <div class="link">
-          <a><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"></a>
+  <section id="contact">
+    <div class="contact-box">
+      <div class="contact-links">
+        <h2>CONTACT</h2>
+        <div class="links">
+          <div class="link">
+            <a
+              ><img
+                src="https://i.postimg.cc/m2mg2Hjm/linkedin.png"
+                alt="linkedin"
+            /></a>
+          </div>
+          <div class="link">
+            <a
+              ><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"
+            /></a>
+          </div>
+          <div class="link">
+            <a
+              ><img
+                src="https://i.postimg.cc/W4Znvrry/codepen.png"
+                alt="codepen"
+            /></a>
+          </div>
+          <div class="link">
+            <a
+              ><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"
+            /></a>
+          </div>
         </div>
       </div>
+      <div class="contact-form-wrapper">
+        <form action="https://formspree.io/f/xgedgldj" method="POST">
+          <div class="form-item">
+            <input type="text" name="sender" required />
+            <label>Name:</label>
+          </div>
+          <div class="form-item">
+            <input type="text" name="email" required />
+            <label>Email:</label>
+          </div>
+          <div class="form-item">
+            <textarea class="" name="message" required></textarea>
+            <label>Message:</label>
+          </div>
+          <button class="submit-btn">Send</button>
+        </form>
+      </div>
     </div>
-    <div class="contact-form-wrapper">
-      <form>
-        <div class="form-item">
-          <input type="text" name="sender" required>
-          <label>Name:</label>
-        </div>
-        <div class="form-item">
-          <input type="text" name="email" required>
-          <label>Email:</label>
-        </div>
-        <div class="form-item">
-          <textarea class="" name="message" required></textarea>
-          <label>Message:</label>
-        </div>
-        <button class="submit-btn">Send</button>  
-      </form>
-    </div>
-  </div>
-</section>
+  </section>
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 * {
   margin: 0;
@@ -67,28 +79,26 @@ body {
   flex-wrap: wrap;
 }
 
-.contact-links, .contact-form-wrapper {
+.contact-links,
+.contact-form-wrapper {
   width: 50%;
   padding: 8% 5% 10% 5%;
 }
 
-
 .contact-links {
   background-color: #161616;
-  background:
+  background: radial-gradient(
+      circle at 55% 92%,
+      #12181f 0 12%,
+      transparent 12.2%
+    ),
+    radial-gradient(circle at 94% 72%, #131416 0 10%, transparent 10.2%),
     radial-gradient(
-      circle at 55% 92%, #12181f 0 12%, transparent 12.2%
-    ), 
-    radial-gradient(
-      circle at 94% 72%, #131416 0 10%, transparent 10.2%
-    ), 
-    radial-gradient(
-      circle at 20% max(78%, 350px), #0d0e0f 0 7%, transparent 7.2%
-    ), 
-    radial-gradient(
-      circle at 0% 0%, #121315 0 40%, transparent 40.2%
-    ), 
-    #1f2e43;
+      circle at 20% max(78%, 350px),
+      #0d0e0f 0 7%,
+      transparent 7.2%
+    ),
+    radial-gradient(circle at 0% 0%, #121315 0 40%, transparent 40.2%), #1f2e43;
   border-radius: 10px 0 0 10px;
 }
 
@@ -98,14 +108,15 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-  .contact-links, .contact-form-wrapper {
+  .contact-links,
+  .contact-form-wrapper {
     width: 100%;
   }
-  
+
   .contact-links {
     border-radius: 10px 10px 0 0;
   }
-  
+
   .contact-form-wrapper {
     border-radius: 0 0 10px 10px;
   }
@@ -119,12 +130,12 @@ body {
 }
 
 h2 {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   color: #fff;
   font-size: clamp(30px, 6vw, 60px);
   letter-spacing: 2px;
   text-align: center;
-  transform: scale(.95, 1);
+  transform: scale(0.95, 1);
 }
 
 .links {
@@ -142,9 +153,7 @@ h2 {
 img {
   width: 45px;
   height: 45px;
-  filter: 
-    hue-rotate(220deg)
-    drop-shadow(2px 4px 4px #0006);
+  filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
   transition: 0.2s;
   user-select: none;
 }
@@ -155,18 +164,17 @@ img:hover {
 
 img:active {
   transform: scale(1.1, 1.1);
-  filter: 
-    hue-rotate(220deg)
-    drop-shadow(2px 4px 4px #222)
-    sepia(0.3);
+  filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3);
 }
 
 .form-item {
   position: relative;
 }
 
-label, input, textarea {
-  font-family: 'Poppins', sans-serif;
+label,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
 }
 
 label {
@@ -179,7 +187,8 @@ label {
   user-select: none;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   outline: 0;
   border: 1px solid #ccc;
@@ -189,21 +198,21 @@ input, textarea {
   font-size: clamp(15px, 1.5vw, 18px);
 }
 
-input:focus+label, 
-input:valid+label, 
-textarea:focus+label, 
-textarea:valid+label {
+input:focus + label,
+input:valid + label,
+textarea:focus + label,
+textarea:valid + label {
   font-size: clamp(13px, 1.3vw, 16px);
   color: #777;
   top: -20px;
-  transition: all .225s ease;
+  transition: all 0.225s ease;
 }
 
 .submit-btn {
   background-color: #d40b0b;
   filter: drop-shadow(2px 2px 3px #0003);
   color: #fff;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: clamp(16px, 1.6vw, 18px);
   display: block;
   padding: 12px 20px;
@@ -234,15 +243,14 @@ textarea:valid+label {
   h2 {
     font-size: clamp(30px, 12vw, 60px);
   }
-  
+
   .links {
     padding-top: 30px;
   }
-  
+
   img {
     width: 38px;
     height: 38px;
   }
 }
-
 </style>
