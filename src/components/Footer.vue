@@ -44,8 +44,14 @@
 </template>
 
 <script>
-export default {};
+
+
+export default {
+    name: "Home",
+    data: () => ({
+        icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+    }),
+  
+};
 </script>
 
-<style>
-</style>

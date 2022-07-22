@@ -3,7 +3,7 @@
     id="home"
     :style="{ background: $vuetify.theme.themes.dark.background }"
   >
-    <nav-bar />
+    <NavBar />
     <v-container fluid>
       <v-row>
         <v-col cols="6">
@@ -44,13 +44,14 @@
 </template>
 
 <script>
+import NavBar from './NavBar.vue';
 
 export default {
-  name: "Home",
-  data: () => ({
-    icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
-  }),
-
+    name: "Home",
+    data: () => ({
+        icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+    }),
+    components: { NavBar }
 };
 </script>
 <style scoped>

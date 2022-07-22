@@ -1,12 +1,14 @@
 <template>
 <div class="container">
   
+  <h1 class="text-center">Resume</h1>
+  <h4 class="text-center" style="color: rgba(172, 8, 8, 0.884)">Work experience</h4>
   <div class="content">
     
     <div class="lin">
     
       <div class="box1 b-1">
-        <span id='b-1-s'> 2017 - 2018</span>
+        <span id='b-1-s' > 2017 - 2018</span>
         <h4> Shop asssistant  </h4>
         <p>Don Pedroo Fisheries</p>
       </div>
@@ -25,8 +27,34 @@
     </div>
   </div>
   
+<h4 class="text-center" style="color: rgba(172, 8, 8, 0.884)">Education</h4>
 
+  <div class="content">
+    
+    <div class="lin">
+    
+      <div class="box1 b-1">
+        <span id='b-1-s'> 2019</span>
+        <h4> Matric  </h4>
+        <p>Esangweni S.S.S</p>
+      </div>
+    
+      <div class="box1 b-2">
+        <span id='b-2-s'>2020</span>
+        <h4>ICT</h4>
+        <p>Cape Peninsula University of Technology</p>
+      </div>
+    
+      <div class="box1 b-3">
+        <span id='b-1-s'>2022</span>
+        <h4>Web development</h4>
+        <p>Life Choices Coding Academy</p>
+      </div>
+    </div>
+  </div>
 </div>
+
+
 </template>
 
 <style>
@@ -65,7 +93,7 @@
   content:'';
   width:20px;
   height:20px;
-  background: #96DBF7;
+  background:#800000;
   border-radius:50%;
   
   
@@ -87,7 +115,7 @@
   content:'';
   width:20px;
   height:20px;
-  background: #96DBF7;
+  background: #800000;
   border-radius:50%;
   
   
@@ -106,7 +134,7 @@
   content:'';
   width:20px;
   height:20px;
-  background: #96DBF7;
+  background:#800000;
   border-radius:50%;
   
   
