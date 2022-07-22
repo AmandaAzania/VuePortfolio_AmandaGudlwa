@@ -5,12 +5,12 @@
     </v-btn>
 
     <v-spacer></v-spacer>
-    <v-btn text @click="scroll('home')"> <v-icon>mdi-home-outline</v-icon> Home</v-btn>
+    <v-btn text @click="scroll('#home')"> <v-icon>mdi-home-outline</v-icon> Home</v-btn>
        <v-btn text @click="scroll('home')"><v-icon>mdi-account-circle</v-icon> About</v-btn>
-       <v-btn text @click="scroll('skills')"><v-icon>mdi-cogs</v-icon> skills</v-btn>
-    <v-btn text @click="scroll('projects')"> <v-icon>mdi-folder-outline</v-icon> Projects</v-btn>
-     <v-btn text @click="scroll('project')"> <v-icon>mdi-book</v-icon> CV</v-btn>
-       <v-btn text @click="scroll('contact')"><v-icon>mdi-format-quote-open</v-icon> Testimonials</v-btn>
+       <v-btn text href="#skills" ><v-icon>mdi-cogs</v-icon> skills</v-btn>
+    <v-btn text href="#projects"> <v-icon>mdi-folder-outline</v-icon> Projects</v-btn>
+     <v-btn text href="#resume"> <v-icon>mdi-book</v-icon> CV</v-btn>
+       <v-btn text href="#testimonials"><v-icon>mdi-format-quote-open</v-icon> Testimonials</v-btn>
   <v-btn text @click="scroll('contact')"><v-icon>mdi-phone-outline</v-icon> Contact</v-btn>
   </v-app-bar>
 </template>

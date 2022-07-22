@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container" id="resume">
   
   <h1 class="text-center">Resume</h1>
   <h4 class="text-center" style="color: rgba(172, 8, 8, 0.884)">Work experience</h4>
@@ -27,9 +27,10 @@
     </div>
   </div>
   
-<h4 class="text-center" style="color: rgba(172, 8, 8, 0.884)">Education</h4>
 
-  <div class="content">
+<h4 class="text-center" style="color: rgba(172, 8, 8, 0.884)" >Education</h4>
+
+  <div class="content" id="education">
     
     <div class="lin">
     
@@ -50,9 +51,11 @@
         <h4>Web development</h4>
         <p>Life Choices Coding Academy</p>
       </div>
+      
     </div>
   </div>
 </div>
+
 
 
 </template>

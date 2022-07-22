@@ -1,5 +1,5 @@
 <template>
-  <div class="team">
+  <div class="team" id="testimonials">
     <h1 class="subheading grey--text text-center">testimonials</h1>
     <v-container my-5>
       <v-layout row wrap>
@@ -43,6 +43,7 @@ export default {
           role: "Developer",
           testimony:
             "Amanda Gudlwa, a passionate and driven invidualwith the tenaciousness for success she is fun loving person but knows when to be serious, she isknown for being a calm and collected person especially in stressful situations which makes her ideal for any team especially in roles of leadership.",
+            image: 'https://i.postimg.cc/HLJWwGJs/Emile.jpg'
             
         },
         {
@@ -71,6 +72,7 @@ export default {
           role: "Developer",
           testimony:
             "Amanda Gudlwa is a funny individual who is easy to be around. She has an easy energy. She knows how to make time for everything. When it is time to work, she  works, when it is time to have fun she is always down for a good time",
+            image: 'https://i.postimg.cc/tgcPM4TK/Snapchat-1887559217.jpg'
         },
       ],
     };

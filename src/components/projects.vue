@@ -1,6 +1,6 @@
 <template>
   <v-app
-    id="home"
+    id="projects"
     :style="{ background: $vuetify.theme.themes.dark.background }"
   >
     <nav-bar />
@@ -42,7 +42,7 @@
           ><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            <v-icon right>mdi-github</v-icon>
+            <a href="https://www.google.com/"><v-icon>mdi-github</v-icon></a>
           </v-btn>
                <v-btn color="#A7121D" dark text class="ml-n4">
           
@@ -176,7 +176,9 @@ export default {
     NavBar,
 
   },
-};
+
+
+}
 </script>
 <style scoped>
 .top {

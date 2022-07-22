@@ -1,7 +1,9 @@
 <template>
   
 
-  <div class="box">
+  <div class="box" id="skills">
+
+    <h1>Technologies I worked with:</h1>
    
     <ul v-for="skill in skills" :key="skill.lang">
       <li>
