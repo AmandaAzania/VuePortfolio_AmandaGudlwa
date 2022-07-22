@@ -12,7 +12,7 @@
           <p class="grey--text">Some of the projects I worked on at the Academy </p>
         </v-col>
         <v-col md="3" class="text-end">
-          <v-btn tile color="#A7121D" dark> View All </v-btn>
+         
         </v-col>
         <v-col md="3" offset-md="3">
           <v-card
@@ -42,8 +42,11 @@
           ><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <v-icon right>mdi-github</v-icon>
+          </v-btn>
+               <v-btn color="#A7121D" dark text class="ml-n4">
+          
+            <v-icon right>mdi-web</v-icon>
           </v-btn>
         </v-col>
         <!-- end -->
@@ -52,8 +55,12 @@
           <v-btn color="white" dark text class="ml-n4"> To do app </v-btn><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <v-icon right>mdi-github</v-icon>
+          </v-btn>
+
+             <v-btn color="#A7121D" dark text class="ml-n4">
+         
+            <v-icon right>mdi-web</v-icon>
           </v-btn>
         </v-col>
         <v-col md="3" offset-md="3">
@@ -83,15 +90,22 @@
           ><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <v-icon right>mdi-github</v-icon>
+          </v-btn>
+               <v-btn color="#A7121D" dark text class="ml-n4">
+          
+            <v-icon right>mdi-web</v-icon>
           </v-btn>
         </v-col>
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> Area Calculator </v-btn><br />
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+
+            <v-icon right>mdi-github</v-icon>
+          </v-btn>
+              <v-btn color="#A7121D" dark text class="ml-n4">
+          
+            <v-icon right>mdi-web</v-icon>
           </v-btn>
         </v-col>
         
@@ -124,15 +138,25 @@
           ><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+           
+            <v-icon right>mdi-github</v-icon>
+          </v-btn>
+
+                <v-btn color="#A7121D" dark text class="ml-n4">
+            
+            <v-icon right>mdi-web</v-icon>
           </v-btn>
         </v-col>
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> BMI calculator </v-btn><br />
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+      
+            <v-icon right>mdi-github</v-icon>
+          </v-btn>
+
+             <v-btn color="#A7121D" dark text class="ml-n4">
+         
+            <v-icon right>mdi-web</v-icon>
           </v-btn>
         </v-col>
       </v-row>

@@ -36,7 +36,7 @@ export default {
           role: "Lecturer",
           testimony:
             "Amanda Gudlwa,is a well behave and a professional young lady, who knowshow to prioritize her tasks and met the deadline set on aproject.It is alwasys interesting to have Amanda in my class. you will not regret hiring her as a fullstack developer.",
-            image:'https://i.postimg.cc/ZK6Ghm4z/Amanda-2.jpg'
+            image:'https://i.postimg.cc/1Xqq4J2C/joel2.jpg'
         },
         {
           name: "Emile Van Wyk",
@@ -50,18 +50,21 @@ export default {
           role: "Developer",
           testimony:
             " Amanda is a talented individual who is alwa ready to assist her colleagues. She is patientduring group projects as she guides those who not understand certain concepts. She has an incredible wealth of knowledge regarding coding and her dedication to improving her craft is admirable.",
+            image: 'https://i.postimg.cc/HWQ8yHmY/Copy-of-Joshe-Jade-1.jpg'
         },
         {
           name: "Bulelani Sikhikhi",
           role: "Developer",
           testimony:
             "Amanda Gudlwa, a passionate and driven invi with the tenaciousness for success she is fuloving person but knows when to be serious,  she isknown for being a calm and collected person especially in stressful situations which makes h ideal for any team especially in roles ofleadership",
+            image: 'https://i.postimg.cc/LmVkWtr9/Bulelani-1.jpg'
         },
         {
           name: "Sibpongile Rwayi",
           role: "Developer",
           testimony:
             " I have known Amanda Gudlwa since HigH School. She has always been a good student. She always had a hand up in class, to either answer a question or to ask a question. The teachers found her to be a pleasure to teach.",
+            image: 'https://i.postimg.cc/hvbJW8sz/Sibongile-2.jpg'
         },
         {
           name: "Joshua Solomons",
